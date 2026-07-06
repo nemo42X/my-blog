@@ -1,0 +1,66 @@
+mainSections   = ["posts"]
+rssFullContent = true
+SortBy         = "default"
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = ":date_full"
+    lastUpdated = ":date_full"
+
+[sidebar]
+    compact = false
+    avatar  = ""
+    subtitle = "AI 协作内容站"
+
+[article]
+    headingAnchor = false
+    math          = false
+    toc           = true
+    readingTime   = true
+
+    [article.list]
+        showTags = true
+
+    [article.license]
+        enabled = false
+        default = "Licensed under CC BY-NC-SA 4.0"
+
+[widgets]
+    homepage = []
+    page     = []
+
+[opengraph.twitter]
+    site = ""
+    card = "summary_large_image"
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+[imageProcessing]
+    autoOrient = false
+
+    [imageProcessing.external]
+        timeout = "5s"
+
+    [imageProcessing.content]
+        widths  = [800, 1600, 2400]
+        enabled = true
+
+    [imageProcessing.thumbnail]
+        enabled = true
+
+[cookies]
+    enabled      = false
+    showSettings = true
+
+    [cookies.categories]
+        analytics  = true
+        functional = true
+
+[comments]
+    enabled  = false
+    provider = "disqus"

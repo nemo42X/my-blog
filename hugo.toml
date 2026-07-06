@@ -1,0 +1,15 @@
+baseURL = 'https://xiaoyusilk.vip'
+defaultContentLanguage = 'zh-cn'
+locale = 'zh-cn'
+title = 'AI 协作内容站'
+theme = 'hugo-theme-stack'
+
+[pagination]
+pagerSize = 6
+
+[frontmatter]
+date = [':filename', ':default']
+lastmod = [':git', ':default']
+
+[permalinks]
+  posts = '/posts/:slug/'
